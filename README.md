@@ -73,7 +73,7 @@ npm install
 
 ## ⚙️ Environment Setup
 
-Create a `.env` file in both the **root** directory with the following content:
+Create a `.env` file in the **root** directory with the following content:
 ```env
 # Server configuration
 PORT=5000
