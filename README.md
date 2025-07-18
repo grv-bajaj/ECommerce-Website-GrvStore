@@ -1,6 +1,6 @@
 # 🛒 E-Commerce Full Stack Website
 
-A powerful, production-grade **MERN stack** (MongoDB, Express, React, Node.js) e-commerce application with a complete **admin dashboard**, **authentication**, **payment integration**, and more.
+A powerful, production-grade **MERN stack** (MongoDB, Express, React, Node.js) e-commerce Single Page Application (SPA) with a complete **admin dashboard**, **authentication**, **payment integration**, and more.
 
 ---
 
@@ -20,6 +20,11 @@ A powerful, production-grade **MERN stack** (MongoDB, Express, React, Node.js) e
 - Dynamic product listing with categories & filters
 - Product details page with image, description, and stock info
 - Admin can create, edit, delete, or restock products
+
+### 🧭 SPA Architecture
+- This project is built as a **Single Page Application (SPA)** using React and React Router.  
+- All routing is handled on the client-side, enabling seamless navigation without full page reloads.
+
 
 ### 📊 Admin Dashboard
 - View all orders, users, and products
