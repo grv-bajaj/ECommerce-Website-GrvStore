@@ -42,16 +42,16 @@ A powerful, production-grade **MERN stack** (MongoDB, Express, React, Node.js) e
 - RESTful APIs
 
 ### 🎨 Frontend:
-- **React.js** (Vite or CRA)
+- **React.js** (Vite)
 - **Redux Toolkit**
 - **Axios**
-- **Tailwind CSS / CSS Modules / Bootstrap**
+- **Tailwind CSS / CSS Modules**
 
 ### 💳 Payment:
 - **PayPal sandbox API**
 
 ### 📈 Charts:
-- **ApexCharts** / **Chart.js** for sales data visualization
+- **ApexChart** for sales data visualization
 
 ---
 
@@ -59,8 +59,7 @@ A powerful, production-grade **MERN stack** (MongoDB, Express, React, Node.js) e
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/ecommerce-site.git
-cd ecommerce-site
+git clone https://github.com/grv-bajaj/ECommerce-Website-GrvStore
 
 # Install backend dependencies
 npm install
@@ -68,3 +67,47 @@ npm install
 # Install frontend dependencies
 cd frontend
 npm install
+```
+
+---
+
+## ⚙️ Environment Setup
+
+Create a `.env` file in both the **root** directory with the following content:
+```env
+# Server configuration
+PORT=5000
+NODE_ENV=development
+
+# MongoDB connection string
+MONGO_URI=mongodb://127.0.0.1:27017/your_db_name
+
+# JWT secret key for user authentication
+JWT_SECRET=your_jwt_secret_key_here
+
+# PayPal sandbox client ID
+PAYPAL_CLIENT_ID=your_paypal_sandbox_client_id_here
+```
+
+---
+
+## 🚀 Run the Application
+
+```bash
+# In the root folder, start both backend and frontend together
+npm run dev
+```
+---
+
+## 🙋‍♂️ Author
+
+Made with ❤️ by **Gaurav Bajaj**  
+Feel free to connect or fork the repo to enhance it further!
+
+---
+
+## 📝 License
+
+This project is open-source and available under the **MIT License**.
+
+
